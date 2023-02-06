@@ -37,20 +37,20 @@
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
 
-    <nav id="navbar" class="navbar nav-menu">
+    <nav id="nav-menu" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active" ><i class="bx bx-home" class="nav-link home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user" class="nav-link about"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"  class="nav-link skills"></i> <span>Skill</span></a></li>
-        <li><a href="./assets/Atul_Dwivedi_Resume.pdf" target="_blank" download><i class="bx bx-file"  class="nav-link resume" id="resume-link-1"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content" class="nav-link projects"></i> <span>Projects</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope" class="nav-link contact"></i> <span>Contact</span></a></li>
+        <li class="nav-link home"><a href="#home" class="nav-link scrollto active" ><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li class="nav-link about"><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li class="nav-link skills"><a href="#skills" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Skill</span></a></li>
+        <li class="nav-link resume"><a href="./assets/Atul_Dwivedi_Resume.pdf" target="_blank" download><i class="bx bx-file" id="resume-link-1"></i> <span>Resume</span></a></li>
+        <li class="nav-link projects"><a href="#projects" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+        <li class="nav-link contact"><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
   </header><!-- End Header -->
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center"  id="home">
+  <section class="d-flex flex-column justify-content-center"  id="home">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <p> Hi, my name is</p>
       <h1>Atul Dwivedi</h1>
@@ -61,7 +61,7 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about" class="about section">
+    <section id="about" class="about section">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -70,7 +70,7 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid"class="home-img" style="border: 40%;" alt="">
+            <img src="assets/img/profile-img.jpg" class="home-img" style="border: 40%;width: 90%;" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" style="margin-top: 15%;">
             <p> Hi, my name is</p>
@@ -129,7 +129,7 @@
     </section><!-- End Facts Section -->
 
     <!-- ======= Skills Section ======= -->
-    <section id="resume"  id="skills" class="resume section-bg">
+    <section id="skills" class="resume section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -140,26 +140,26 @@
         <div class="row skills-content">
 
          <div class="col-lg-4">
-          <div class="card"  class="skills-card" style="width: 18rem;margin: 3%;border: solid white;">
-            <img src="assets/img/frontend.jpeg" class="card-img-top" class="skills-card-img" alt="...">
+          <div class="skills-card card" style="width: 18rem;margin: 3%;border: solid white;">
+            <img src="assets/img/frontend.jpeg" class="skills-card-img card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-text" class="skills-card-name" style="text-align: center;">HTML, CSS, JAVASCRIPT</h3>
+              <h3 class="skills-card-name card-text" style="text-align: center;">HTML, CSS, JAVASCRIPT</h3>
             </div>
           </div>
          </div>
           <div class="col-lg-4">
-            <div class="card"  class="skills-card" style="width: 18rem;margin: 3%;border: solid white;">
-              <img src="assets/img/backend.png" class="card-img-top" class="skills-card-img" alt="...">
+            <div class="skills-card card" style="width: 18rem;margin: 3%;border: solid white;">
+              <img src="assets/img/backend.png" class="skills-card-img card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-text" class="skills-card-name" style="text-align: center;">MongoDB, NodeJS</h3>
+                <h3 class="skills-card-name card-text" style="text-align: center;">MongoDB, NodeJS</h3>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card"  class="skills-card" style="width: 18rem;margin: 3%;border: solid white;">
-              <img src="assets/img/dsa.png" class="card-img-top" class="skills-card-img" alt="...">
+            <div class="skills-card card" style="width: 18rem;margin: 3%;border: solid white;">
+              <img src="assets/img/dsa.png" class="skills-card-img card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-text" class="skills-card-name" style="text-align: center;">Tree, Graph, Recursion, DP, Sorting, Binary Search</h3>
+                <h3 class="skills-card-name card-text" style="text-align: center;">Tree, Graph, Recursion, DP, Sorting, Binary Search</h3>
               </div>
           </div>
          </div>
@@ -218,7 +218,7 @@
    <!-- End Resume Section -->
 
     <!-- ======= Projects Section ======= -->
-    <section id="portfolio" class="portfolio section-bg" id="projects">
+    <section class="portfolio section-bg" id="projects">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -227,34 +227,36 @@
         </div>
         <div class="row" style="margin-top: 7%; margin-left: 5%;">
           <div class=" col-lg-6" >
-            <div class="card" class="project-card" style="width: 23rem;">
+            <div class="project-card card" style="width: 23rem;">
               <img src="assets/img/fashion point.png" class="card-img-top" style="width: 100%;" alt="...">
               <div class="card-body">
-                <h5 class="card-title" class="project-title">Fashion Point</h5>
-                <p class="card-text">E-commerce website deals in fashion items for male and female and the products are cost effective budget friendly.</p>
+                <h5 class="project-title card-title">Fashion Point</h5>
+                <p class="project-description card-text">E-commerce website deals in fashion items for male and female and the products are cost effective budget friendly.</p>
+                <p class="project-tech-stack card-text">HTML,JS,CSS,NodeJS,Express,MongoDB</p>
                 <div class="row">
                   <div class=" col-lg-6">
-                    <a href="https://sunny-zuccutto-22aba8.netlify.app/" class="btn btn-danger">Visit Project</a>
+                    <a href="https://sunny-zuccutto-22aba8.netlify.app/" class="project-deployment-link btn btn-danger">Visit Project</a>
                   </div>  
                   <div class=" col-lg-6">
-                    <a href="https://github.com/bire210/spiky-plate-7313" class="btn btn-success">Git Repo</a>
+                    <a href="https://github.com/bire210/spiky-plate-7313" class="project-github-link btn btn-success">Git Repo</a>
                   </div>  
                   </div>
               </div>
             </div>
           </div>
           <div class=" col-lg-6">
-            <div class="card" class="project-card"  style="width: 23rem;">
+            <div class="project-card card" style="width: 23rem;">
               <img src="assets/img/vocla.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title" class="project-title">Vocal for Local</h5>
-                <p class="card-text">E-commerce site deals in hotels, restaurant, and amusememt services.</p>
+                <h5 class="project-title card-title">Vocal for Local</h5>
+                <p class="project-description card-text">E-commerce site deals in hotels, restaurant, and amusememt services.</p>
+                <p class="project-tech-stack card-text">HTML,JS,CSS,NodeJS,Express,MongoDB</p>
                 <div class="row">
                 <div class=" col-lg-6">
-                  <a href="https://sunny-zuccutto-22aba8.netlify.app/" class="btn btn-danger">Visit Project</a>
+                  <a href="https://sunny-zuccutto-22aba8.netlify.app/" class="project-deployment-link btn btn-danger">Visit Project</a>
                 </div>  
                 <div class=" col-lg-6">
-                  <a href="https://github.com/bire210/spiky-plate-7313" class="btn btn-success">Git Repo</a>
+                  <a href="https://github.com/bire210/spiky-plate-7313" class="project-github-link btn btn-success">Git Repo</a>
                 </div>  
                 </div>
                 
@@ -266,34 +268,36 @@
         
         <div class="row" style="margin-top: 7%; margin-left: 5%;">
           <div class=" col-lg-6">
-            <div class="card" class="project-card" style="width: 23rem;">
+            <div class="project-card card" style="width: 23rem;">
               <img src="assets/img/fourth.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Dummy project</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="project-title card-title">Dummy project</h5>
+                <p class="project-description card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="project-tech-stack card-text">HTML,JS,CSS,NodeJS,Express,MongoDB</p>
                 <div class="row">
                   <div class=" col-lg-6">
-                    <a href="https://sunny-zuccutto-22aba8.netlify.app/" class="btn btn-danger">Visit Project</a>
+                    <a href="https://sunny-zuccutto-22aba8.netlify.app/" class="project-deployment-link btn btn-danger">Visit Project</a>
                   </div>  
                   <div class=" col-lg-6">
-                    <a href="https://github.com/bire210/spiky-plate-7313" class="btn btn-success">Git Repo</a>
+                    <a href="https://github.com/bire210/spiky-plate-7313" class="project-github-link btn btn-success">Git Repo</a>
                   </div>  
                   </div>
               </div>
             </div>
           </div>
           <div class=" col-lg-6">
-            <div class="card" class="project-card" style="width: 23rem;">
+            <div class="project-card card" style="width: 23rem;">
               <img src="assets/img/apni.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Apni Dukan</h5>
-                <p class="card-text">It is an e-commerce site which deals in daily goods.</p>
+                <h5 class="project-title card-title">Apni Dukan</h5>
+                <p class="project-description card-text">It is an e-commerce site which deals in daily goods.</p>
+                <p class="project-tech-stack card-text">HTML,JS,CSS,NodeJS,Express,MongoDB</p>
                 <div class="row">
                   <div class=" col-lg-6">
-                    <a href="https://sunny-zuccutto-22aba8.netlify.app/" class="btn btn-danger">Visit Project</a>
+                    <a href="https://sunny-zuccutto-22aba8.netlify.app/" class="project-deployment-link btn btn-danger">Visit Project</a>
                   </div>  
                   <div class=" col-lg-6">
-                    <a href="https://github.com/bire210/spiky-plate-7313" class="btn btn-success">Git Repo</a>
+                    <a href="https://github.com/bire210/spiky-plate-7313" class="project-github-link btn btn-success">Git Repo</a>
                   </div>  
                   </div>
               </div>

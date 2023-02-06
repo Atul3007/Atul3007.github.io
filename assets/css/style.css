@@ -281,7 +281,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#home {
   width: 100%;
   height: 100vh;
   background: url("../img/hero-bg.jpg") top right no-repeat;
@@ -290,12 +290,12 @@ h6 {
 }
 
 @media (min-width: 992px) {
-  #hero {
+  #home {
     padding-left: 160px;
   }
 }
 
-#hero:before {
+#home:before {
   content: "";
   background: rgba(255, 255, 255, 0.8);
   position: absolute;
@@ -305,7 +305,7 @@ h6 {
   right: 0;
 }
 
-#hero h1 {
+#home h1 {
   margin: 0;
   font-size: 64px;
   font-weight: 700;
@@ -313,23 +313,23 @@ h6 {
   color: #45505b;
 }
 
-#hero p {
+#home p {
   color: #45505b;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
-#hero p span {
+#home p span {
   color: #0563bb;
   letter-spacing: 1px;
 }
 
-#hero .social-links {
+#home .social-links {
   margin-top: 30px;
 }
 
-#hero .social-links a {
+#home .social-links a {
   font-size: 24px;
   display: inline-block;
   color: #45505b;
@@ -338,21 +338,21 @@ h6 {
   transition: 0.3s;
 }
 
-#hero .social-links a:hover {
+#home .social-links a:hover {
   color: #0563bb;
 }
 
 @media (max-width: 992px) {
-  #hero {
+  #home {
     text-align: center;
   }
 
-  #hero h1 {
+  #home h1 {
     font-size: 32px;
     line-height: 36px;
   }
 
-  #hero p {
+  #home p {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
@@ -411,38 +411,38 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h3 {
+.about section.content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #728394;
 }
 
-.about .content ul {
+.about section.content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.about section.content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
 
-.about .content ul strong {
+.about section.content ul strong {
   margin-right: 10px;
 }
 
-.about .content ul i {
+.about section.content ul i {
   font-size: 16px;
   margin-right: 5px;
   color: #0563bb;
   line-height: 0;
 }
 
-.about .content p:last-child {
+.about section.content p:last-child {
   margin-bottom: 0;
 }
-
+ 
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
