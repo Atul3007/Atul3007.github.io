@@ -417,6 +417,15 @@ section {
   color: #728394;
 }
 
+#resume-button-1 {
+    margin-bottom: 10%;
+    border-radius:100% ;
+    border: white;
+}
+#resume-button-2 {
+  border: white;
+}
+
 .about section.content ul {
   list-style: none;
   padding: 0;
